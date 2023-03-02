@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Cybugtech/u-tube.git/static/css/main.82023f13.css",
+    "main.js": "/Cybugtech/u-tube.git/static/js/main.29435091.js",
+    "static/media/banner.png": "/Cybugtech/u-tube.git/static/media/banner.5a2e1438cdf45dbf13bd.png",
+    "static/media/logo.png": "/Cybugtech/u-tube.git/static/media/logo.47741b3eea6bcc4e816f.png",
+    "index.html": "/Cybugtech/u-tube.git/index.html",
+    "main.82023f13.css.map": "/Cybugtech/u-tube.git/static/css/main.82023f13.css.map",
+    "main.29435091.js.map": "/Cybugtech/u-tube.git/static/js/main.29435091.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82023f13.css",
+    "static/js/main.29435091.js"
+  ]
+}
