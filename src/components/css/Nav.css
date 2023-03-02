@@ -1,0 +1,137 @@
+#search_bar_section{
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid gray;
+    background-color: black;
+    z-index: 5;
+}
+.top_search_con{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100vw;
+    height: 70px;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logo_cont_and_hambbar{
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.logo_cont_and_hambbar i{
+    color: white;
+    font-size: 30px;
+}
+.logo_cont_and_hambbar img{
+    margin-left: 20px;
+    margin-bottom: 15px; 
+}
+
+.search_cont{
+    margin-right: 150px;
+}
+
+#search_input{
+    padding: 15px 223px 15px 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(107, 107, 107, 0.597);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: transparent;
+    color: white;
+}
+#search_btn{
+    padding: 15.5px 25px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#search_btn i{
+    color: rgb(122, 122, 122);
+}
+
+
+.filter_section{
+    /* background-color: aqua; */
+    /* width: 100vw; */
+    height: 50px;
+    /* display: flex;
+    justify-content: space-between; */
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+.filter_section ul{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.filter_section ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.filter_section ul :nth-child(1){
+    background-color: red;
+}
+.filter_section ul li:hover{
+    background-color: red;
+}
+/* .filter_section h4{
+    color: white;
+    cursor: pointer;
+} */
+/* .filter{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .filter_section :nth-child(1){
+    background-color: red;
+    /* padding: 15px 25px; */
+    /* border-radius: 10px;
+} */ 
+
+
+
+
+/* left nav */
+.show{
+    width: 230px !important;
+}
+.left_navbar_section{
+    position: fixed;
+    top: 90px;
+    z-index: 5;
+}
+
+.left_navbar_cont{
+    width: 0px;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+}
+.left_navbar_cont ul li{
+    padding: 20px;
+    cursor: pointer;
+}
+.left_navbar_cont ul li i{
+    margin-right: 25px;
+    font-size: 20px;
+}

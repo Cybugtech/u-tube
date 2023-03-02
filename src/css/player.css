@@ -1,0 +1,25 @@
+
+.utube_main_frame_cont{
+    padding: 26px 158px;
+    margin-top: 91px;
+}
+.utubeVideo_frame{
+    width: 100%;
+    height: 498px;
+    border: 1px solid wheat;
+}
+.frame_video_info{
+    color: white;
+}
+.frame_video_title{
+    margin-top: 5px;
+}
+.frame_video_title h3{
+    font-family: 'Roboto', sans-serif;
+}
+.frame_channel_name{
+    margin-top: 10px;
+}
+.frame_channel_name h2{
+    font-family: 'Roboto', sans-serif;
+}

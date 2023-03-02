@@ -1,0 +1,17 @@
+.random_video_card{
+    width: 340px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.random_video_image img{
+    border-radius: 20px;
+}
+.random_video_info h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+}

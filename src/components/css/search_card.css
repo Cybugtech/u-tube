@@ -1,0 +1,72 @@
+.card{
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.card_thumbnail img{
+    width: 360px;
+    height: 202px;
+    border-radius: 10px;
+}
+.title_and_other{
+    color: white;
+    margin-left: 30px;
+}
+
+.title_and_other h1{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+.title_and_other h4{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    color: #aaaa;
+}
+
+.card_channel_icon_name{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    color: #AAAA;
+    margin-bottom: 30px;
+}
+.card_channel_icon_name h5{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.card_channel_icon_name img{
+    width: 30px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+
+.title_and_other h5{
+    font-family: 'Roboto', sans-serif;
+    color: #aaaa;
+}
+
+
+/* channelcard */
+.channelcard{
+    padding-left: 100px;
+    align-items: center;
+}
+.channelcard_thumb img{
+    height: 136px;
+    width: 136px;
+    border-radius: 50%;
+}
+.channelcard_name_and_other{
+    margin-left: 90px;
+}
+.channelcard_name_and_other h5{
+    margin-top: 10px;
+}
+
+/* playlist card */
+.playlist{
+    color: white;
+}

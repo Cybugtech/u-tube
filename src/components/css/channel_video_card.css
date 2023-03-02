@@ -1,0 +1,27 @@
+.channel_video_card{
+    width: 340px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.channel_video_image{
+    height: 190px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.channel_video_image img{
+    /* border-radius: 20px; */
+    transform: scaleY(1.4);
+}
+.channel_video_info{
+    overflow: hidden;
+}
+.channel_video_info h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
